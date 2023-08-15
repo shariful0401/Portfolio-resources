@@ -1,35 +1,137 @@
-*{
+* {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
 
 /* nav section  */
-nav{
+nav h1 {
+  font-size: 50px;
+}
+
+nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  margin: 30px 100px;
 }
-nav ul{
+
+nav ul {
   display: flex;
   align-items: center;
 }
-nav li{
+
+nav li {
   list-style: none;
   margin-left: 50px;
 }
-/* nav ul, li{
-  justify-items: center;
-} */
-.r{
+
+.r {
   color: orange;
 }
-.hire-btn{
+
+.hire-btn {
   background-color: #FD6E0A;
   padding: 15px 30px;
   border-radius: 3px;
   color: white;
-  font-weight: 900;
+  font-weight: 700;
   border: 0;
 }
 
+/* Header image and text */
+.header {
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+  background-size: auto, 85px;
 
+}
+
+.header-text-image {
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  margin-left: 100px;
+  padding-right: 200px;
+}
+
+.header-content h3 {
+  font-size: 60px;
+}
+
+.header-content h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.header-image img {
+  width: 584px;
+  height: 600px;
+}
+
+.header-btns {
+  padding-top: 20px;
+}
+
+.contact-btn {
+  border: 1px solid#FD6E0A;
+  padding: 15px 30px;
+  border-radius: 3px;
+  color: #FD6E0A;
+  font-weight: bold;
+}
+
+.dc-btn {
+  margin: 10px;
+}
+
+/* Main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about-me {
+  margin-top: 130px;
+  border-radius: 10px;
+  background: #FFF8F3;
+  padding: 130px 150px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-description{
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-title{
+  color: #757575;
+}
+.info-description{
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* what i do section */
+.do-section{
+text-align: center;
+margin: 20px 20px;
+}
+.do-section p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #757575;
+}
+/* Card Section */
+.card-section{
+  display: flex;
+}
