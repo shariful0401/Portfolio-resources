@@ -162,6 +162,52 @@ main {
 .card h3{
   padding-bottom: 20px;
 }
-/* .cards-section{
-  padding: 30px;
-} */
+
+/* summary section */
+.section-title{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sections{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.summary-section{
+  margin: 20px;
+}
+.summary-section h2{
+}
+.section-card{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-card h2{
+  padding-bottom: 5px;
+}
+.section-card p{
+  color: #757575;
+}
+.p-title{
+  padding-bottom: 20px;
+  color: #757575;
+}
+.download-button{
+  text-align: center;
+}
+
+/* Footer Section */
+footer{
+  background-color: #FFF8F3;;
+}
+.footer-section{
+  display: flex;
+}
+.input-form h1{
+  padding-bottom: 30px;
+}
+.input-form input, textarea{
+  margin-bottom: 24px;
+}
